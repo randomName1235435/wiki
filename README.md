@@ -35,13 +35,44 @@ GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
 ### wind apps
 
 ```batch
-ncpa.cpl
-msconfig
-appwiz.cpl
-mmc.exe
-shell:startup
-ncpa.cpl
-sysdm.cpl
+msconfig - startup config
+shell:startup - autostart folder
+sysdm.cpl System Properties (to rename computer and join domain)
+dssite.msc Active Directory sites and services
+dsa.msc Active Directory users and computers
+appwiz.cpl Add/Remove programs
+compmgmt.msc Computer management
+timedate.cpl Date/Time management
+devmgmt.msc Device Manager
+dhcpmgmt.msc DHCP Management
+cleanmgr Disk Cleanup Utility
+diskmgmt.msc Disk Management
+desk.cpl Display Settings
+dnsmgmt.msc DNS Server Management
+eventvwr.msc Event Viewer
+lusrmgr.msc Local user and groups manager
+mmc.exe Microsoft Management Console
+main.cpl Mouse settings
+ncpa.cpl Network adapter settings
+powercfg.cpl Power Configuration
+intl.cpl Regional Settings
+services.msc Services
+fsmgmt.msc Shared Folder Management
+firewall.cpl Windows Firewall
+wf.msc Windows Firewall Advanced
+mmsys.cpl Sound Control Panel
+Mstsc for remote desktop
+diskmgmt.msc, services.msc and lusrmgr.msc
+control - Opens control panel
+resmon Resource monitor
+compmgmt.msc gives them all plus more, in a single mmc console.
+
+Device manager
+Disk manager
+Event viewer
+Task scheduler
+User manager
+Service manager
 ```
 
 ## c#/.net
